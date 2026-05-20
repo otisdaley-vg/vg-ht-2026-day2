@@ -1,0 +1,4 @@
+claude mcp add moviedb -- npx -y @bytebase/dbhub --transport stdio --dsn "postgres://hackathon:hackathon@db:5432/movies"
+
+
+claude mcp add moviedb npx @bytebase/dbhub -- --dsn postgres://hackathon:hackathon@db:5432/movies
