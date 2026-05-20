@@ -1,8 +1,6 @@
 services:
   app:
-    build:
-      context: ..
-      dockerfile: Dockerfile
+    image: ghcr.io/otisdaley-vg/hackathon-daytwo:latest
     volumes:
       - ../:/workspaces/daytwo:cached
     command: sleep infinity
